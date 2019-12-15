@@ -128,10 +128,15 @@ color: #FFFFFF;
     border: none;
     background: #131313;
     color: #FFFFFF;
-    border-bottom: 1px solid #989898;
 }
-
+.footer__form-el{
+    border-bottom: 1px solid #989898;
+    margin-right: 24px;
+}
 .footer__wrap button:hover{
     background: #FFFFFF;
     color: #131313;
+}
+.footer__form-wrap{
+    display: flex;
 }
