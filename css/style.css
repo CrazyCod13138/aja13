@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.header__logo{
+    background: #131313;
+    width: 20%;
+    min-width: 450px;
+    min-height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav{
+    width: 80%;
+}
+.header__wrap{
+    display: flex;
+}
+nav ul a{
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 14px;
+}
+nav ul li {
+    padding: 10px 20px ;
+}
+nav ul li:hover a {
+    text-decoration: underline;
+}
+
+
