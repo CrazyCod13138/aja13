@@ -129,7 +129,80 @@
     </section>
 
 
+<section class="articles">
+    <div class="container">
 
+        <h3 class="articles__title">Свежии статьи <span class="line"></span></h3>
+
+        <div class="articles__wrap">
+            <div class="article__el">
+                <div class="article__img-wrap">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="article__el-text">
+                    <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+                    <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+                    <div class="article__el-date">
+                        <div class="article__el-date-wrap">
+                            1 февраля 2020
+                        </div>
+                        <div class="article__el-view">
+                            <span>331</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="article__el">
+                <div class="article__img-wrap">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="article__el-text">
+                    <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+                    <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+                    <div class="article__el-date">
+                        <div class="article__el-date-wrap">
+                            1 февраля 2020
+                        </div>
+                        <div class="article__el-view">
+                            <span>331</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="article__el">
+                <div class="article__img-wrap">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="article__el-text">
+                    <div class="article__el-title">Анализ Agile. Мифы и действительность</div>
+                    <div class="article__el-desc">Профессиональная литература с термином «Agile» в названиях стала появляться на полках IT - экспертов...</div>
+
+                    <div class="article__el-date">
+                        <div class="article__el-date-wrap">
+                            1 февраля 2020
+                        </div>
+                        <div class="article__el-view">
+                            <span>331</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
 
 
 
@@ -196,10 +269,22 @@
         </div>
 
     </div>
+    <script id="vertexShader" type="x-shader/x-vertex">
+  varying vec2 vUv;
+  void main() {
+    vUv = uv;
+    gl_Position = projectionMatrix
+      * modelViewMatrix
+      * vec4( position, 1.0 );
+  }
+</script>
+
 
 </footer>
 
 <script src="js/libs.min.js"></script>
+<script src="js/three.min.js"></script>
+
 <script src="js/app.js"></script>
 
 
